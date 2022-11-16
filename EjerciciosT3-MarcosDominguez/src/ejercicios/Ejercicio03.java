@@ -52,6 +52,7 @@ public class Ejercicio03 {
 		//Hago un espacio y num se reduce a uno
 		System.out.println();
 		num--;
+			continue;
 		}
 		// Cierro scanner
 
