@@ -23,6 +23,12 @@ public class Ejercicio10 {
 		System.out.println("Introduzca un número y se comprobará si es capicúa");
 		numero=all.nextInt();
 
+			//Si introduce un nº menor a 0, le hago saber
+		while (numero=<0) {
+			System.out.println("Tiene que ser mayor a 0");
+			numero=all.nextInt();
+		}
+		
 		//Salva se fija a numero/10, resto al modulo de salva/10 y reves al resto.
 		
 		  salva=(numero/10);
